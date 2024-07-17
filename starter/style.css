@@ -117,3 +117,17 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+ul {
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+
+ul:hover {
+  height: calc-size(auto);
+  mask-image: none;
+}
